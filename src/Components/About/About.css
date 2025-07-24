@@ -1,0 +1,55 @@
+/* src/Pages/About.css */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.about-box {
+  background-color: white;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.5s ease;
+}
+
+.about-box h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.about-box p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+.about-box .tech {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.about-box .signature {
+  margin-top: 30px;
+  font-style: italic;
+  text-align: right;
+  color: #555;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  } 
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
